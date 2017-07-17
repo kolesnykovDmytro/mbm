@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+	<link rel="shortcut icon" href="http://mbmwebinars.com/themes/backoffice/assets/img/favicon.ico"/>
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="Странца расшарки" />
+	<meta property="og:image" content="картинка для расшарки" />
+	<meta property="og:title" content='Титл для расшарки' />
+	<meta property="og:description" content='Опсиание' /><!--Опсиание-->
+	<meta property="og:site_name" content=’Титл для расшарки' />
+	<meta itemprop="name" content='Титл для расшарки'>
+	<meta itemprop="description" content="Опсиание"><!--Опсиание-->
+	<meta itemprop="image" content="картинка для расшарки">
+
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+
+<style>.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #FFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.fixed-header li {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  margin: 0 5px;
+}
+
+.fixed-header a {
+  display: block;
+  line-height: 60px;
+  color: #444;
+  text-decoration: none;
+  padding: 0 20px;
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+}
+
+.fixed-header .active a {
+  background: #222;
+  color: #FFF;
+}
+
+.side-menu {
+  position: fixed;
+  right: 20px;
+  top: 0;
+  bottom: 0;
+  width: 22px;
+  height: 100%;
+  display: table;
+  background: red
+}
+
+.side-menu nav {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.side-menu li {
+  padding: 10px 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.side-menu a {
+  display: block;
+  position: relative;
+  color: #FFF;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.side-menu a:after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #FFF;
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+}
+
+.side-menu span {
+  display: block;
+  position: absolute;
+  right: 32px;
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: translate3d(30px, 0, 0);
+      -ms-transform: translate3d(30px, 0, 0);
+       -o-transform: translate3d(30px, 0, 0);
+          transform: translate3d(30px, 0, 0);
+}
+
+.side-menu .active a:after {
+  background: #FFF;
+}
+
+.side-menu .active span {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}</style>
+
+
+
+</head>
+
+
+<body>
+
+
+	<div class="side-menu" id="main-header">
+		<nav>
+		    <ul>
+		      <li class="active"><a href="#home"><span>Home</span></a></li>
+		      <li><a href="#list"><span>Section 1</span></a></li>
+		      <li><a href="#prof"><span>Section 2</span></a></li>
+		    </ul>
+			</nav>
+  	</div>
+	<div class="container-fluide">
+		<!-- begin header -->
+		<header class="header" id="home">
+			<div class="wrap-page">
+				<div class="header-top">
+					<a href="#" class="logo" target="blank"><img src="img/header-logo.png" class="img-responsive" alt="logo"></a>
+					<p class="phone"><span>+7 499 322 76 48</span>  <span>/  +38 097 777 74 97</span></p>
+				</div>
+				<div class="header-bottom">
+					<div class="header__left">
+						<p>Бесплатный PDF-чек лист</p>
+						<h1 class="title">
+							<span class="letter">У</span>
+							<span class="letter">п</span>
+							<span class="letter">а</span>
+							<span class="letter">к</span>
+							<span class="letter">о</span>
+							<span class="letter">в</span>
+							<span class="letter">к</span>
+							<span class="letter">а.</span>
+							<span class="letter"></span>
+							<span class="letter">П</span>
+							<span class="letter">р</span>
+							<span class="letter">о</span>
+							<span class="letter">д</span>
+							<span class="letter">а</span>
+							<span class="letter">ж</span>
+							<span class="letter">а</span>
+							<span class="letter"></span><br>
+							<span class="letter">л</span>
+							<span class="letter">и</span>
+							<span class="letter">ч</span>
+							<span class="letter">н</span>
+							<span class="letter">о</span>
+							<span class="letter">й</span>
+							<span class="letter"></span>
+							<span class="letter">э</span>
+							<span class="letter">к</span>
+							<span class="letter">с</span>
+							<span class="letter">п</span>
+							<span class="letter">е</span>
+							<span class="letter">р</span>
+							<span class="letter">т</span>
+							<span class="letter">н</span>
+							<span class="letter">о</span>
+							<span class="letter">с</span>
+							<span class="letter">т</span>
+							<span class="letter">и</span>
+							<span class="letter"></span>
+							<span class="letter">2</span>
+							<span class="letter">.</span>
+							<span class="letter">0</span>
+						<!-- Упаковка. Продажа  личной экспертности 2.0 -->
+						</h1>
+						<p>Взрывной тайм менеджмент для<br>Инфо-предпринимателя</p>
+					</div>
+					<div class="header__right">
+						<img class="back__image img-responsive" src="img/form_bg.png" alt="form-img">
+						<fieldset class="form-inner form__top">
+							<form method="post" class="form__group" action="" onsubmit="yaCounter29831514.reachGoal('---'); return true;">
+								<p>На какой e-mail Вам выслать это практическое руководство <br><span>по ускорению Вашей эффективности в онлайн бизнесе?</span></p>
+								<div class="in_cont first"><input name="User[username]" type="text" placeholder="Ваше имя"></div>		
+								<div class="in_cont"><input name="User[email]" type="text" placeholder="Ваш E-mail"></div>
+								<div class="in_cont last"><button type="submit" class="button" >Получить PDF</button></div>	
+							</form>
+						</fieldset>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- end header -->
+		<!-- begin container-list -->
+		<div class="container-list" id="list">
+			<div class="wrap-page">
+				<p>Мы хотим чтобы Вы точно понимали ценность этого файла!</p>
+				<h2>Давайте уточним, что внутри:</h2>
+				<ul class="list-item">
+					<li><span>1</span>пошаговое руководство для онлайн предпринимателя (с чего начать)</li>
+					<li><span>5</span>самые эффективные способы продажи знаний</li>	
+					<li><span>2</span>эффективные приемы тайм менеджмента </li>	
+					<li><span>4</span>организация рабочего процесса инфо-предпринимателя</li>
+					<li><span>3</span>фокус на монетизацию. первая 1000 подписчиков = первая 1000 у.е.</li>
+				</ul>
+			</div>
+		</div>
+		<!-- end container-list -->
+		<!-- begin container-for -->
+		<div class="container-for">
+			<div class="wrap-page">
+				<div class="for__left">
+					<h2>Для кого:</h2>
+					<p>Вы умеете делать что-то гораздо лучше других людей и знаете что это можно монетизировать </p>
+				</div>
+				<div class="for__right">
+					<a href="#"><img src="img/arrow.png" class="arrow" alt="arrow"></a>
+				</div>
+			</div>
+		</div>
+		<!-- end container-for -->
+		<!-- begin container-profesional -->
+		<div class="container-profesional" id="prof">
+			<div class="wrap-page">
+				<p>Вы специалист</p>
+				<h2>в конкретной области:</h2>
+				<div class="prof-container">
+					<div class="profesional__text">
+						<p>Что делать если Вы не нашли себя в этом обширном списке?</p>
+						<p>Не расстраивайтесь, у нас просто не хватит места перечислить всех людей, которым будет сверх полезен наш PDF чек-лист! ;)</p>
+					</div>
+					<div class="profesional__list">
+						<ul>
+							<li>копирайтер</li>
+							<li>дизайнер</li>
+							<li>коуч</li>
+							<li>тренер (бизнес, спорт и т.д.)</li>
+							<li>репетитор</li>
+						</ul>
+						<ul>
+							<li>бухгалтер</li>
+							<li>трейдер</li>
+							<li>шоумен</li>
+							<li>диетолог</li>
+							<li>консультант</li>
+						</ul>
+						<ul>
+							<li>консультант</li>
+							<li>психолог </li>
+							<li>предприниматель в МЛМ</li>
+							<li>специалист в SMM</li>
+							<li>проджект манеджер</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end container-profesional -->
+
+		<!-- begin container-author -->
+		<div class="container-author__top">
+			<div class="wrap-page">
+				<h2>Авторы:</h2>
+				<div class="author-inner">
+					<p class="author-title title__mobile">Алекс Олимской</p>
+					<div class="author__foto">
+						<img src="img/author1.png" class="img-responsive" alt="foto">
+					</div>
+					<div class="author__list">
+						<p class="author-title">Алекс Олимской</p>
+						<ul>
+							<li>Основатель компании Vertical Training</li>
+							<li>Владелец 3 разных бизнесов</li>
+							<li>Провел более 700 тренингов</li>
+							<li>Участников обучающих программ 45000</li>
+							<li>Автор 5 образовательных программ</li>
+							<li>3 образования</li>
+							<li>Дайвер, сёрфер, триатлет</li>
+							<li>Женат. Дочь и сын</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="container-author__bottom">
+			<div class="wrap-page">
+				<div class="author-inner author__bottom">
+					<p class="author-title title__mobile">Роман Астапов</p>
+					<div class="author__list">
+						<p class="author-title">Роман Астапов</p>
+						<ul>
+							<li>Сооснователь компании MBM</li>
+							<li>Профессиональный интернет-маркетолог </li>
+							<li>Суммарный доход от проектов, с которыми работал более 82  млн. руб </li>
+							<li>Онлайн продюсер </li>
+							<li>Высокооплачиваемый копирайтер </li>
+							<li>Профессиональный спикер </li>
+							<li>Автор 5 образовательных программ. </li>
+							<li>Специалист в сфере продвижения оффлайн бизнеса через Интернет</li>
+						</ul>
+					</div>
+					
+					<div class="author__foto">
+						<img src="img/author2.png" class="img-responsive" alt="foto">
+					</div>	
+				</div>
+			</div>
+		</div>
+		<!-- end container-author -->
+		<!-- begin container-form -->
+		<div class="container-form">
+			<div class="wrap-page">
+				<fieldset class="form-inner form__top">
+					<form method="post" class="form__group" action="" onsubmit="yaCounter29831514.reachGoal('---'); return true;">
+						<p>На какой e-mail Вам выслать это практическое руководство <br><span>по ускорению Вашей эффективности в онлайн бизнесе?</span></p>
+						<div class="in_cont first"><input name="User[username]" type="text" placeholder="Ваше имя"></div>		
+						<div class="in_cont"><input name="User[email]" type="text" placeholder="Ваш E-mail"></div>
+						<div class="in_cont last"><button type="submit" class="button" >Получить PDF</button></div>	
+					</form>
+				</fieldset>
+			</div>
+		</div>
+		<!-- end container-form -->
+	</div>
+		<!-- begin footer -->
+		<footer class="footer">
+			<div class="wrap-page">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<a href="#" target="blanc"><img src="img/logo.png" alt="logo" class="footer__img"></a>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p>Все права защищены © 2017 ArtemNesterenko.com.<br>ИП Нестеренко А.Ю. , ОГРН №2922608816,</p>
+						<p><img src="https://mbmpartner.com/files/landings/566/footmail.png"> Support@mbm.partners</p>
+						<p><img src="https://mbmpartner.com/files/landings/566/footphon.png"> Украина: +380442283550; +380948283550<br>	       				   +380977777497 <br> Россия:   +74993227648</p>
+					</div>
+				</div>
+				<ul class="link__footer">
+					<li><a href="https://mbmpartner.com/politika_konfidencialnosti" target="_blank">Политика конфиденциальности</a></li>
+					<li><a href="https://mbmpartner.com/otkaz_ot_otvetstvennosti" target="_blank">Дисклеймер</a></li>
+					<li><a href="https://mbmpartner.com/soglasie_s_rassylkoj" target="_blank">Согласие с рассылкой</a></li>
+				</ul>
+			</div>
+		</footer>
+		<!-- end footer -->
+	
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+	<script src="js/menuspy.min.js"></script>
+	<script>
+		let tl = new TimelineMax();
+
+		tl
+			.staggerFromTo('.title .letter', 1, {y: 20,opacity: 0}, {y:0,opacity: 1,ease: Back.easeOut.config(1)},0.05)
+	</script>
+
+	<script>
+		var elm = document.querySelector('#main-header');
+		var ms = new MenuSpy(elm);
+
+		var ms = new MenuSpy(elm,{
+
+    // menu selector
+    menuItemSelector: 'a[href^="#"]',
+
+    // CSS class for active item
+    activeClass   : 'active',
+
+    // amount of space between your menu and the next section to be activated.
+    threshold     : 15,
+
+    // timeout to apply browser's hash location.
+    hashTimeout   : 600,
+
+    // called every time a new menu item activates.
+    callback      : null
+    
+});
+	</script>
+
+</body>
+</html>
